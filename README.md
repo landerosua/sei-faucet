@@ -62,7 +62,7 @@ tmux new -s discord_faucet_bot -d cd ~/sei-faucet && source venv/bin/activate &&
 
 - Start the service  
 ```
-ln -s $HOME/cosmos-discord-faucet/discord-faucet-bot.service /etc/systemd/system/ \
+ln -s $HOME/sei-faucet/discord-faucet-bot.service /etc/systemd/system/ \
 && systemctl daemon-reload \
 && systemctl enable discord-faucet-bot.service \
 && systemctl start discord-faucet-bot.service \
