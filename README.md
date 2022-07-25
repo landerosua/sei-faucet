@@ -1,5 +1,5 @@
-# cosmos-discord-faucet
-Discord faucet bot for any blockchain based Cosmos  
+# Sei-discord-faucet
+Discord faucet bot for sei blockchain based Cosmos  
 
 
 <details>
