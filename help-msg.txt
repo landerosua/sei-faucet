@@ -1,0 +1,15 @@
+**List of available commands:**
+1. Request coins through the faucet
+`$request sei1rr2pf542snhvr7re933lu8xq58cuy8uavzaqzm`
+
+2. Displays the current status of the node where faucet is running
+`$faucet_status`
+
+3. Show tap address
+`$faucet_address` or `$tap_address`
+
+4. Show transaction information for a specific transaction ID
+`$tx_info B40F057439183F5A1226FB1B0B66A8781AF0174060205A3FF316C8CEB35EB4D9`
+
+5. Show address balance
+`$balance sei1rr2pf542snhvr7re933lu8xq58cuy8uavzaqzm`

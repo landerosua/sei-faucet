@@ -1,0 +1,12 @@
+[Unit]
+Description="Discord faucet bot"
+
+[Service]
+User=root
+WorkingDirectory=/root/cosmos-discord-faucet
+ExecStart=/root/cosmos-discord-faucet/venv/bin/python3 discord_faucet_bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
