@@ -34,12 +34,12 @@ Transaction status explanation:
 ## How to install  
 1. Run command below  
 ```bash
-apt update \ &&
-apt install -y python3-pip python3-venv git tmux \ &&
-git clone https://github.com/landeros/sei-faucet.git \ &&
-cd sei-faucet \ &&
-python3 -m venv venv \ &&
-source venv/bin/activate \ &&
+apt update
+apt install -y python3-pip python3-venv git tmux
+git clone https://github.com/landeros/sei-faucet.git
+cd sei-faucet
+python3 -m venv venv
+source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 2. [Create Discord token](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)  
